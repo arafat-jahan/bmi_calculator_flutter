@@ -1,0 +1,44 @@
+name: flutter_starter_apps
+# A short description of the project
+# Updated for better clarity and structure
+description: A BMI Calculator Flutter project.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version details
+# Follow semantic versioning conventions.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Define the dependencies required for the project
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS style
+  cupertino_icons: ^1.0.2
+
+  # FontAwesome Flutter for additional icon needs
+  font_awesome_flutter: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for better coding practices
+  flutter_lints: ^2.0.0
+
+flutter:
+  # Enable the Material Design icons and widgets
+  uses-material-design: true
+
+  # Section for adding assets like images and fonts
+
+
+# Notes:
+# 1. Use the `assets` folder to organize your image files properly.
+# 2. Include the `fonts` folder in the root directory for custom fonts.
+# 3. Ensure all file paths specified under `assets` and `fonts` exist in the project.
